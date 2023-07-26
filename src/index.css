@@ -1,0 +1,17 @@
+ body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;  
+font-size: 19px;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} 
+ 
+.nav-link-big {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: red;
+}
