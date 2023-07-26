@@ -6,7 +6,7 @@ import { Container, Form, Row, Col, Button } from "react-bootstrap";
 function CreateQualification() {
   const state = useContext(GlobalState);
   const token = state.token;
-  const[owner] = state.owner
+  const[owner] = state.userApi.owner
   const [qualificationn, setQualification] = useState({
     qualification: "",
     tutorSpecialty1: "",
