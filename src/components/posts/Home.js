@@ -14,7 +14,6 @@ function Home() {
   const [users] = state.usersApi.users;
   const [posts, setPosts] = useState([]);
   const[owner] = state.userApi.owner
-  const [isLogged] = state.userApi.isLogged;
   const[toBlock, setToBlock] = useState({})
   const[newPost, setNewPost] = useState([])
   const[genuity, setGenuity] = useState({})
@@ -221,7 +220,7 @@ const ShowOurPosts = ({ post, toBlock }) => {
              <Link to={`/post_single/${post._id}`} style={{textDecorationLine: "none"}}> {post.subjectName} </Link>
             </h4>
             <span className="text-justify">MK{post.subjectPrice}</span>
-            <p className="text-justify" style={{fontSize: "30px"}}>
+            <p className="text-justify" style={{fontSize: "18px"}}>
             
             {isExpanded ? subjectCommentary : subjectCommentary.slice(0, maxChars)}
         {shouldShowSeeMore && (
