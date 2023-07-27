@@ -63,6 +63,7 @@ getCats()
       }
     );
 
+    
     window.location.href = "/my_services";
   };
 

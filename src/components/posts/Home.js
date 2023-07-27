@@ -162,7 +162,7 @@ function Home() {
 
 
 
-const ShowOurPosts = ({ post, toBlock }) => {
+const ShowOurPosts = ({ post,  }) => {
   const state = useContext(GlobalState);
   const [users] = state.usersApi.users;
   const [person, setPerson] = useState({});
