@@ -6,7 +6,7 @@ import {  Col, Row } from "react-bootstrap";
 import _ from "lodash"
 
 
-const pageSize = 3;
+const pageSize = 8;
 
 
 function SubjectsView() {
